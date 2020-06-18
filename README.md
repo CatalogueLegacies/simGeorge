@@ -1,6 +1,12 @@
 # simGeorge: background and license
 
-This repository hosts settings for creating a GPT-2 inflected language model that writes catalogue descriptions in the "voice" of [Mary Dorothy George](https://doi.org/10.1093/ref:odnb/45657). Unless otherwise stated, these materials are licensed under a [GNU General Public License v3.0](https://github.com/CuratorialVoice/code/blob/master/LICENSE).
+This repository hosts code/settings for creating a GPT-2 inflected language model that writes catalogue descriptions in the "voice" of [Mary Dorothy George](https://doi.org/10.1093/ref:odnb/45657).
+
+These code/settings can be run via Max Woolf's [Colaboratory Notebook](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce) (see '[How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/)'), or a local install of the python package [gpt-2-simple](https://github.com/minimaxir/gpt-2-simple) (though the latter hasn't been tested).
+
+The dataset used is `CurV-corpus-27Jan2019.txt` at [http://doi.org/10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
+
+Unless otherwise stated, these materials are licensed under a [GNU General Public License v3.0](https://github.com/CuratorialVoice/code/blob/master/LICENSE).
 
 This work is based on data created during the project '[Curatorial Voice: legacy descriptions of art objects and their contemporary uses](https://curatorialvoice.github.io/)', and is associated with the project '[Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/)'.
 
