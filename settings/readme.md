@@ -1,0 +1,1 @@
+The settings are split into three iterations of simGeorge, each of which have different training and text generation parameters. I should be straightward to plug this code into Max Woolf's [Colaboratory Notebook](https://minimaxir.com/2019/09/howto-gpt2/).
