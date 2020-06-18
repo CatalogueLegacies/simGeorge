@@ -1,0 +1,13 @@
+If you're retraining a model on new text, you need to download the GPT-2 model first.
+
+There are three released sizes of GPT-2:
+
+124M (default): the "small" model, 500MB on disk.
+355M: the "medium" model, 1.5GB on disk.
+774M: the "large" model, cannot currently be finetuned with Colaboratory but can be used to generate text from the pretrained model (see later in Notebook)
+1558M: the "extra large", true model. Will not work if a K80 GPU is attached to the notebook. (like 774M, it cannot be finetuned).
+
+
+`gpt2.download_gpt2(model_name="124M")
+
+# this gives more weighting to MDG language, as her voice is overwhelmed when using the bigger models.

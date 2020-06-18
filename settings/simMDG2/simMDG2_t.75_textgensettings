@@ -1,0 +1,10 @@
+gen_file = 'gpt2_gentext_{:%Y%m%d_%H%M%S}.txt'.format(datetime.utcnow())
+
+gpt2.generate_to_file(sess,
+                      run_name='simMDG2',
+                      destination_path=gen_file,
+                      length=400,
+                      temperature=0.75,
+                      nsamples=100,
+                      batch_size=50
+                      )
